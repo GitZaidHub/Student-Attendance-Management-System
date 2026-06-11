@@ -461,6 +461,31 @@ button {
   color: #a61d39;
 }
 
+.status-not-recorded {
+  background: rgba(115, 115, 115, 0.12);
+  color: #4d4d4d;
+}
+
+.date-picker-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.date-picker-label {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.date-picker {
+  border: 1px solid var(--surface-border);
+  border-radius: 8px;
+  padding: 0.75rem 0.9rem;
+  background: var(--surface-1);
+  color: var(--text-strong);
+}
+
 .radio-cell {
   text-align: center;
 }
